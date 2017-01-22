@@ -18,9 +18,10 @@
         <a href="#" class="brand-logo">Logo</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
+          <li class="active"><a href="sass.html">Inicio</a></li>
+          <li><a href="badges.html">Hombres</a></li>
+          <li><a href="collapsible.html">Mujeres</a></li>
+          <li><a href="collapsible.html">contato</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="sass.html">Sass</a></li>
@@ -35,11 +36,11 @@
       <div class="carousel-fixed-item center">
         <a class="btn waves-effect white grey-text darken-text-2">button</a>
       </div>
-      <div class="carousel-item red white-text" href="#one!">
+      <div class="carousel-item backcarousel1 white-text" href="#one!">
         <h2>First Panel</h2>
         <p class="white-text">This is your first panel</p>
       </div>
-      <div class="carousel-item amber white-text" href="#two!">
+      <div class="carousel-item backcarousel2 white-text" href="#two!">
         <h2>Second Panel</h2>
         <p class="white-text">This is your second panel</p>
       </div>
@@ -54,10 +55,11 @@
                    Moda y estilo para tu personalidad :V
                  </p>
                  <div class="marcas col s12 m12 ">
-                   <img class="col s6 m3 responsive-img"src="img/marvel.png" alt="marvel">
-                   <img class="col s6 m3 responsive-img"src="img/bvs.png" alt="Batman vs superman">
-                   <img class="col s6 m3 responsive-img"src="img/cw.png" alt="Civil ward">
-                   <img class="col s6 m3 responsive-img"src="img/super.png" alt="Super man">
+
+                   <img class="col s6 m3  "src="img/marvel.png" alt="marvel">
+                   <img class="col s6 m3  "src="img/bvs.png" alt="Batman vs superman">
+                   <img class="col s6 m3  "src="img/cw.png" alt="Civil ward">
+                   <img class="col s6 m3  "src="img/super.png" alt="Super man">
                  </div>
                </article>
       </section>
@@ -72,12 +74,66 @@
        </div>
       </section>
       <section class="row">
-        <div class="products">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
+        <div class="products col m4">
+          <div class=" card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator scal" src="img/bat-masvendido.png">
+            </div>
+            <div class="card-content center">
+              <span class="card-title activator grey-text text-darken-4 ">BATMAN BOMBER JACKET</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">BATMAN BOMBER JACKET<i class="material-icons right">close</i></span>
+              <p class="center">
+                Precio:$1,199 <br>
+                tallas: CH M G XG  <br>
+                APLICACIÓN BORDADA EN PECHO Y MANGA, SLIM FIT, TELA IMPERMEABLE, 100% POLIÉSTER.
+                <br><br>
+                <a href="#" class="btn">Comprar</a>
+              </p>
+            </div>
+          </div>
         </div>
-
+        <div class="products col m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator scal" src="img/bat-masvendido.png">
+            </div>
+            <div class="card-content center">
+              <span class="card-title activator grey-text text-darken-4 ">BATMAN BOMBER JACKET</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">BATMAN BOMBER JACKET<i class="material-icons right">close</i></span>
+              <p class="center">
+                Precio:$1,199 <br>
+                tallas: CH M G XG  <br>
+                APLICACIÓN BORDADA EN PECHO Y MANGA, SLIM FIT, TELA IMPERMEABLE, 100% POLIÉSTER.
+                <br><br>
+                <a href="#" class="btn">Comprar</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="products col m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator scal" src="img/bat-masvendido.png">
+            </div>
+            <div class="card-content center">
+              <span class="card-title activator grey-text text-darken-4 ">BATMAN BOMBER JACKET</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">BATMAN BOMBER JACKET<i class="material-icons right">close</i></span>
+              <p class="center">
+                Precio:$1,199 <br>
+                tallas: CH M G XG  <br>
+                APLICACIÓN BORDADA EN PECHO Y MANGA, SLIM FIT, TELA IMPERMEABLE, 100% POLIÉSTER.
+                <br><br>
+                <a href="#" class="btn">Comprar</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer -->
@@ -112,10 +168,9 @@
     <script type="text/javascript">
 
        $(document).ready(function(){
-       $('.parallax').parallax();
-       $(".button-collapse").sideNav();
-       $('.carousel.carousel-slider').carousel({full_width: true});
-
+         $('.parallax').parallax();
+         $(".button-collapse").sideNav();
+         $('.carousel.carousel-slider').carousel({full_width: true});
        });
 
     </script>
