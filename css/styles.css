@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+*{
+  font-family: 'Handlee', cursive;
+}
+
+body{
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main{
+   flex: 1 0 auto;
+ }
+ img{
+   max-width: 100%;
+ }
+
+ .parallax img{
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+ }
+
+ .titleparallax{
+   text-align: center;
+   font-size: 1.3em;
+   padding-top: 10%;
+   text-shadow: 1px 1px 5px black;
+
+ }
