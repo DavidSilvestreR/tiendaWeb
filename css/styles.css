@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee');
 *{
   font-family: 'Handlee', cursive;
+  box-sizing: border-box;
 }
 
 body{
@@ -9,20 +10,64 @@ body{
    flex-direction: column;
    background: #EEEFF7;
  }
+ /* NOTE: estilo nav */
 nav{
   background: #1C1D21;
   padding-left: 10px;
   padding-right: 10px;
+
+}
+ img.logo1{
+  max-width: 70px;
 }
  main{
    flex: 1 0 auto;
  }
 .backcarousel1{
   background-image: url("../img/slider1.jpg");
+
 }
 .backcarousel2{
   background-image: url("../img/slider2.jpg");
+
 }
+.degradado{
+  background: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  color: black;
+}
+.degradado h2{
+  font-size: 3em !important;
+  font-weight:bolder !important;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.degradado p{
+  font-size: 2.5em !important;
+  color: black;
+  text-shadow: 1px 1px 5px #000;
+}
+/* NOTE:  fin parallax comienzo slogan y marcas */
+ .marcas {
+   padding:2%  !important;
+ }
+ .marcas h1{
+   text-shadow: 1px 1px 5px black;
+ }
+ .marcas p{
+   font-size: 2em;
+ }
+ .marcas img{
+
+ }
+
+
+
+
+
+
 
  .parallax img{
    opacity: 0.5;
@@ -40,7 +85,11 @@ nav{
    background: rgba(49, 53, 51, 0.9);
  }
  .card-content{
-   background: #f1f1f1;
+   background: #445878;
+
+ }
+ .card-title{
+    color:white !important;
  }
  img.scal{
  transition: all 1s;
@@ -54,3 +103,6 @@ nav{
 footer{
    background: rgba(28, 29, 33, 0.8) !important;
  }
+.social img{
+max-width: 100%;
+}

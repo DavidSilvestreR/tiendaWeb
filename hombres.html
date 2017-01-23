@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/logo.png">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Super tienda</title>
+  </head>
+
+  <body>
+    <!-- inicio menu -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img class="logo1" src="img/logo.png" alt=""></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="hombres.html">Hombres</a></li>
+          <li><a href="mujeres.html">Mujeres</a></li>
+          <li><a href="contacto.html">contato</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="hombres.html">Hombres</a></li>
+          <li><a href="mujeres.html">Mujeres</a></li>
+          <li><a href="contacto.html">contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- fin menu -->
+
+
+    <!-- contenido principal -->
+    <main>
+
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Direccion</h5>
+            <p class="grey-text text-lighten-4">
+              Hogar de la alianza <br>
+              #4B Hogares de Atizapan <br>
+              codigo postal:52910.</p>
+          </div>
+          <div class="col l4 offset-l2 s12 social">
+            <h5 class="white-text col m12 center">Redes Sociales</h5>
+
+              <a class="col m4 s2" href="https://www.facebook.com/david.silvestre.7773"><img src="img/facebook.png" alt=""></a>
+              <a class="col m4 s2" href="https://www.instagram.com/david.silvestre.7773/"><img src="img/insta.png" alt=""></a>
+              <a class="col m4 s2" href="#"><img src="img/twitter.png" alt=""></a>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">
+        © 2016 Copyright David Silvestre Reynoso
+
+        </div>
+      </div>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+
+       $(document).ready(function(){
+         $('.parallax').parallax();
+         $(".button-collapse").sideNav();
+         $('.carousel.carousel-slider').carousel({full_width: true});
+       });
+
+    </script>
+  </body>
+</html>
