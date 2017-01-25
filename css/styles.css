@@ -97,7 +97,29 @@ nav{
  img.scal:hover{
    transform: scale(1.3);
  }
-
+/* NOTE: estilos de pagina hombre y mujer */
+.hombresimg{
+  background-image: url("../img/hombres.jpg");
+  background-size: 100% 100% ;
+background-repeat: no-repeat;
+  text-align: center;
+}
+.hombresdeg{
+    padding: 5%;
+}
+.beastprod{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.imgbest{
+  width: 300px !important;
+  height:auto !important;
+  top:-5% !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px black;
+}
+.conproduc img{
+  max-width: 100%;
+}
 
 
 footer{
