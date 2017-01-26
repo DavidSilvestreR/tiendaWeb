@@ -97,9 +97,18 @@ nav{
  img.scal:hover{
    transform: scale(1.3);
  }
+ .active{
+   background: rgba(255,255,255,0.5)!important;
+ }
 /* NOTE: estilos de pagina hombre y mujer */
 .hombresimg{
   background-image: url("../img/hombres.jpg");
+  background-size: 100% 100% ;
+background-repeat: no-repeat;
+  text-align: center;
+}
+.mujeresimg{
+  background-image: url("../img/slidermujer.jpg");
   background-size: 100% 100% ;
 background-repeat: no-repeat;
   text-align: center;
@@ -120,8 +129,17 @@ background-repeat: no-repeat;
 .conproduc img{
   max-width: 100%;
 }
-
-
+.imgproducto{
+  max-width: 100%;
+}
+.bestproducts h1{
+   text-align: center;
+}
+.beastprod a{
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+}
 footer{
    background: rgba(28, 29, 33, 0.8) !important;
  }
